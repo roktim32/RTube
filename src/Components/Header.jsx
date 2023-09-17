@@ -11,7 +11,7 @@ const Header = () => {
                     <li className='hover:scale-110 cursor-pointer transition-all hover:bg-red-700 px-3 py-1 pb-2 rounded-full text-white hover:font-bold'>Kids</li>
                 </ul>
             </div>
-            <img src="./assets/userimage.png" className='w-[40px] rounded-full m-5 invisible md:visible lg:visible hover:scale-90 transition-all ease-in-out' />
+            <img src="./assets/userimage.png" className='w-[40px] rounded-full m-5 invisible md:visible lg:visible hover:scale-125 transition-all ease-in-out duration-500' />
         </div>
     )
 }
