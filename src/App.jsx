@@ -1,9 +1,10 @@
-function App() {
+import React from 'react'
+import HeroSection from './Components/HeroSection'
 
+const App = () => {
   return (
-    <>
-      <h1>test</h1>
-    </>
+    <HeroSection />
   )
 }
+
 export default App
